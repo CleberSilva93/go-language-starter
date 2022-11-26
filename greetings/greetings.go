@@ -7,3 +7,9 @@ func Hello(name string) string {
 
 	return message
 }
+
+func Ola(name string) string{
+	message := fmt.Sprintf("Olá, %v. Seja bem-vindo!", name)
+
+	return message
+}

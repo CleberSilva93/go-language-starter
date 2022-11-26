@@ -10,5 +10,8 @@ func main(){
 
 	message := greetings.Hello("Gladys")
 
+	messagept := greetings.Ola("Gladys")
+
 	fmt.Println(message)
+	fmt.Println(messagept)
 }
